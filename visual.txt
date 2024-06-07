@@ -1,0 +1,29 @@
+/*
+
+ * 
+ 7 6 2024
+ class Solution {
+    // Function to find the maximum occurred integer in all ranges.
+    public int maxOccured(int n, int l[], int r[], int maxx) {
+        // Create an array to keep track of range updates
+        int[] arr = new int[maxx + 2];
+        // Apply the range updates using the difference array technique
+        for (int i = 0; i < n; i++) {
+            arr[l[i]]++;
+            arr[r[i] + 1]--;
+        }
+        // Compute the prefix sums to get the actual frequencies
+        int maxFreq = arr[0];
+        int result = 0;
+        for (int i = 1; i <= maxx; i++) {
+            arr[i] += arr[i - 1];
+            if (arr[i] > maxFreq) {
+                maxFreq = arr[i];
+                result = i;
+            }
+        }
+
+        return result;
+    }
+}
+ */
