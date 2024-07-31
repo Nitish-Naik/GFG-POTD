@@ -1,4 +1,5 @@
-class ArmstrongNumbers {
+package JUNE_2026;
+public class ArmstrongNumbers {
     public static String armstrongNumber(int n) {
         // code here
 
