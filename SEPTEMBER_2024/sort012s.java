@@ -3,7 +3,6 @@ public class sort012s {
     // Function to sort an array of 0s, 1s, and 2s
     public static ArrayList<Integer> sort012(ArrayList<Integer> arr) { // line 3 <- error on this line, see below for error message
         // code here
-        
         int low = 0;
         int mid=0;
         int high = arr.size()-1;
