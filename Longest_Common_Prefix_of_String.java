@@ -1,4 +1,4 @@
-package JUNE_2024;
+
 class Longest_Common_Prefix_of_String {
     public static String longestCommonPrefix(String arr[]) {
         if (arr.length == 0) return "-1";
