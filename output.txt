@@ -1,0 +1,11 @@
+testcases : 2
+s : "1[b]"
+Test Case 1:
+Input: "1[b]"
+Output : "b"
+
+s : "3[b2[ca]]"
+Test Case 2:
+Input: "3[b2[ca]]"
+Output : "bcacabcacabcaca"
+
