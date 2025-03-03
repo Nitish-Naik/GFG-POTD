@@ -1,11 +1,2 @@
-testcases : 2
-s : "1[b]"
-Test Case 1:
-Input: "1[b]"
-Output : "b"
-
-s : "3[b2[ca]]"
-Test Case 2:
-Input: "3[b2[ca]]"
-Output : "bcacabcacabcaca"
-
+output for testcase 1 : [4, 2, 6]
+output for testcase 2 : [2, 4, 7, 2]
